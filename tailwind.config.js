@@ -9,6 +9,9 @@ module.exports = {
       fontSize: {
         heading: "2rem",
       },
+      fontFamily: {
+        dmsans: ["DM Sans"],
+      },
     },
   },
   variants: {},
