@@ -4,6 +4,10 @@
 
 @tailwind utilities;
 
+.hero-area {
+  height: calc(100vh - theme("height.24"));
+}
+
 /* SIDEBAR */
 .sidebar {
   background: hsl(210, 36%, 96%);
