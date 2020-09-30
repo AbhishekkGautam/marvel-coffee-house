@@ -4,13 +4,13 @@ import BackgroundImage from "gatsby-background-image"
 const HeroSection = ({ img, heroclass }) => {
   return (
     <BackgroundImage className={heroclass} fluid={img}>
-      <h1 className="text-white text-center md:text-6xl text-2xl px-2 mb-6 mt-32 lg:mb-8 lg:mt-12 tracking-wide leading-tight">
+      <h1 className="text-white md:text-center md:text-6xl text-heading px-10 mb-6 mt-20 lg:mb-8 lg:mt-12 tracking-wide leading-tight">
         Organic Coffee & Teas,
         <br />
         100% Carytown Coffee Beans
       </h1>
       <div className="mb-16">
-        <h4 className="text-white text-center font-thin md:text-2xl text-xs px-20 tracking-wide">
+        <h4 className="text-white md:text-center font-thin md:text-2xl text-sm px-10 md:px-20 tracking-wide">
           Connecting with People through Coffee, Food, and Live Music.
         </h4>
       </div>
