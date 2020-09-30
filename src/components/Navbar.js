@@ -27,7 +27,7 @@ const Navbar = ({ toggleSidebar }) => {
     },
   ]
   return (
-    <nav className="w-full absolute z-10 shadow top-0 left-0 h-24 flex items-center bg-white">
+    <nav className="w-full absolute z-10 top-0 left-0 h-24 flex items-center bg-white">
       <div className="w-11/12 max-w-screen-lg my-0 mx-auto lg:grid lg:grid-cols-2 lg:items-center">
         <div className="flex justify-between items-center">
           <Link to="/">
