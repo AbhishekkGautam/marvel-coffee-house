@@ -10,7 +10,7 @@ module.exports = {
         heading: "2rem",
       },
       fontFamily: {
-        dmsans: ["DM Sans"],
+        poppins: ["poppins", "sans-serif"],
       },
     },
   },
