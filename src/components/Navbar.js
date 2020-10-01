@@ -40,6 +40,7 @@ const Navbar = ({ toggleSidebar }) => {
             <button
               onClick={toggleSidebar}
               className="lg:hidden focus:outline-none text-3xl bg-transparent border-transparent text-gray-700 cursor-pointer"
+              aria-label="Hamburger Menu"
             >
               <FaAlignRight />
             </button>
