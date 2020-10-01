@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
   }
 
   return (
-    <div className="bg-orange-200">
+    <div className="">
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       {children}
