@@ -34,7 +34,7 @@ const Navbar = ({ toggleSidebar }) => {
             <img src={logo} alt="logo" width="90px" height="90px" />
           </Link>
           <div className="lg:hidden flex justify-end">
-            <Link to="/" className="text-gray-700">
+            <Link to="#" className="text-gray-700">
               <FaCartArrowDown className="text-3xl mr-8" />
             </Link>
             <button
@@ -61,7 +61,7 @@ const Navbar = ({ toggleSidebar }) => {
               )
             })}
             <li>
-              <Link to="/" className="text-gray-700">
+              <Link to="#" className="text-gray-700">
                 <FaCartArrowDown className="text-2xl" />
               </Link>
             </li>
