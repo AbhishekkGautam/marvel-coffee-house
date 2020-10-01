@@ -3,7 +3,7 @@ import BackgroundImage from "gatsby-background-image"
 
 const HeroSection = ({ img, heroclass }) => {
   return (
-    <BackgroundImage className={heroclass} fluid={img}>
+    <BackgroundImage className={heroclass} fluid={img} fadeIn="soft">
       <h1 className="text-gray-200 font-poppins md:text-center lg:text-5xl md:text-4xl text-3xl px-10 mb-6 mt-20 lg:mb-8 lg:mt-12 tracking-wide leading-tight">
         Organic Coffee & Teas,
         <br />
