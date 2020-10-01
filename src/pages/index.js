@@ -21,8 +21,8 @@ export const query = graphql`
   {
     img: file(relativePath: { eq: "hero-image.jpg" }) {
       childImageSharp {
-        fluid(quality: 80, maxWidth: 1920) {
-          ...GatsbyImageSharpFluid_withWebp
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
