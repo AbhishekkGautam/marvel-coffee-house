@@ -10,9 +10,9 @@ const HeroSection = ({ img, heroclass }) => {
         100% Carytown Coffee Beans
       </h1>
       <div className="mb-16">
-        <h4 className="text-white md:text-center font-thin md:text-lg lg:text-xl text-sm px-10 md:px-20 tracking-wide">
+        <h1 className="text-white md:text-center font-thin md:text-lg lg:text-xl text-sm px-10 md:px-20 tracking-wide">
           Connecting with People through Coffee, Food, and Live Music.
-        </h4>
+        </h1>
       </div>
       <div className="flex space-x-10 md:space-x-12">
         <button className="bg-orange-300 py-2 px-4 text-xs lg:text-sm lg:py-3 lg:px-6 hover:bg-black hover:text-white focus:outline-none transition-all duration-300 ease-linear">
