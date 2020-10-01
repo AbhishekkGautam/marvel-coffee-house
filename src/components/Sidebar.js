@@ -34,7 +34,11 @@ const Sidebar = ({ toggleSidebar, isOpen }) => {
 
   return (
     <aside className={`sidebar ${isOpen ? "show-sidebar" : ""}`}>
-      <button onClick={toggleSidebar} className="close-btn">
+      <button
+        onClick={toggleSidebar}
+        className="close-btn"
+        aria-label="Close Button"
+      >
         <GrClose className="text-3xl" />
       </button>
       <div className="side-container">
