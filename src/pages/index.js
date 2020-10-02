@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from "../components/HeroSection"
 import VisitUs from "../components/VisitUs"
+import CateringSection from "../components/CateringSection"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = ({ data }) => (
       heroclass="min-h-screen flex justify-center items-center flex-col"
     />
     <VisitUs />
+    <CateringSection />
   </Layout>
 )
 
