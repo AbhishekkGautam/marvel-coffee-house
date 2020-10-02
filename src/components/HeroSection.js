@@ -1,9 +1,26 @@
 import React from "react"
 import BackgroundImage from "gatsby-background-image"
+import { graphql, useStaticQuery } from "gatsby"
 
-const HeroSection = ({ img, heroclass }) => {
+const HeroSection = ({ heroclass }) => {
+  const { image } = useStaticQuery(graphql`
+    query {
+      image: file(relativePath: { eq: "hero-image.jpg" }) {
+        sharp: childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  `)
+
   return (
-    <BackgroundImage className={heroclass} fluid={img} fadeIn="soft">
+    <BackgroundImage
+      className={heroclass}
+      fluid={image.sharp.fluid}
+      fadeIn="soft"
+    >
       <h1 className="text-gray-200 font-poppins md:text-center lg:text-5xl md:text-4xl text-3xl px-10 mb-6 mt-20 lg:mb-8 lg:mt-12 tracking-wide leading-tight">
         Organic Coffee & Teas,
         <br />
