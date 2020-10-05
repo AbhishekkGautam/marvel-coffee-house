@@ -15,9 +15,9 @@ const CateringSection = () => {
     }
   `)
   return (
-    <section className="py-10 bg-orange-200">
+    <section className="pt-10 pb-5 md:pb-10 bg-orange-200">
       <div className="max-w-screen-lg mx-auto w-5/6">
-        <h1 className="text-center text-4xl md:text-4xl lg:text-5xl font-light pt-6 lg:pt-8 tracking-wide">
+        <h1 className="text-center text-4xl md:text-4xl lg:text-5xl font-poppins font-light pt-6 lg:pt-8 tracking-wide">
           Catering
         </h1>
         <div className="py-10 mb-5 flex flex-col md:flex-row items-center">
@@ -25,7 +25,7 @@ const CateringSection = () => {
             <Img fluid={data.file.childImageSharp.fluid} />
           </div>
           <div className="mt-4 md:ml-10 lg:pl-24">
-            <p className="text-sm font-light md:text-base lg:text-2xl py-4 text-center md:text-left leading-relaxed">
+            <p className="text-lg font-light md:text-base lg:text-xl pt-8 md:pt-0 text-center md:text-left leading-relaxed">
               We offer various catering options, from sandwich platters to boxed
               lunches. To discuss catering options and place an order,
               <br />
