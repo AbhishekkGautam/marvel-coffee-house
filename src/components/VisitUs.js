@@ -3,7 +3,7 @@ import React from "react"
 const VisitUs = () => {
   return (
     <section className="bg-orange-200">
-      <div className="bg-orange-900 p-8 w-4/5 md:w-5/6 h-auto md:h-56 md:flex justify-around items-center">
+      <div className="bg-orange-900 p-8 md:w-5/6 h-auto md:h-56 md:flex justify-around items-center">
         <div className="text-white text-3xl pb-5 lg:text-4xl tracking-wide font-light">
           <h1>Visit Us</h1>
         </div>
