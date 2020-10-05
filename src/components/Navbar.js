@@ -35,11 +35,11 @@ const Navbar = ({ toggleSidebar }) => {
           </Link>
           <div className="lg:hidden flex justify-end">
             <Link to="#" className="text-gray-700" aria-label="Cart Icon">
-              <FaCartArrowDown className="text-3xl mr-8" />
+              <FaCartArrowDown className="text-3xl mr-10" />
             </Link>
             <button
               onClick={toggleSidebar}
-              className="lg:hidden focus:outline-none text-3xl bg-transparent border-transparent text-gray-700 cursor-pointer"
+              className="lg:hidden focus:outline-none text-3xl mr-1 bg-transparent border-transparent text-gray-700 cursor-pointer"
               aria-label="Hamburger Menu"
             >
               <FaAlignRight />
