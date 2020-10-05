@@ -7,6 +7,7 @@ import HeroSection from "../components/HeroSection"
 import VisitUs from "../components/VisitUs"
 import CateringSection from "../components/CateringSection"
 import MusicSection from "../components/MusicSection"
+import Testimonials from "../components/Testimonials"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -18,6 +19,7 @@ const IndexPage = ({ data }) => (
     <VisitUs />
     <CateringSection />
     <MusicSection />
+    <Testimonials />
   </Layout>
 )
 
