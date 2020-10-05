@@ -12,6 +12,10 @@ module.exports = {
       fontFamily: {
         poppins: ["poppins", "sans-serif"],
       },
+      height: {
+        80: "20rem",
+        96: "24rem",
+      },
     },
   },
   variants: {},
