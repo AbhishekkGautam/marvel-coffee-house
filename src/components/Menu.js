@@ -1,0 +1,56 @@
+import React, { Component } from "react";
+import Img from "gatsby-image";
+
+export default class Menu extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: props.items.edges,
+      coffeeItems: props.items.edges,
+    };
+  }
+  render() {
+    if (this.state.items.length > 0) {
+      return (
+        <section className="mt-10 mb-10">
+          <div className="max-w-screen-lg mx-auto w-5/6 md:w-3/4">
+            {/*Categories*/}
+            {/*Items*/}
+            <div className="grid grid-cols-1 lg:grid-cols-2 col-gap-10 gap-y-8 xl:col-gap-16">
+              {this.state.coffeeItems.map(({ node }) => {
+                return (
+                  <div className="flex" key={node.id}>
+                    <div className="">
+                      <Img fixed={node.image.fixed} />
+                    </div>
+                    <div className="pl-5">
+                      <div className="flex justify-between">
+                        <h2 className="text-lg font-medium md:text-xl xl:text-2xl">
+                          {node.title}
+                        </h2>
+                        <p className="bg-orange-200 text-lg md:text-xl xl:text-2xl px-2 rounded-md">
+                          ${node.price}
+                        </p>
+                      </div>
+                      <p className="text-xs md:text-sm lg:text-xs xl:text-sm pt-3 md:pt-5 lg:pt-4">
+                        {node.description.description}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      );
+    } else {
+      return (
+        <section className="w-4/5">
+          <div className="">
+            <h1>There are no items to display.</h1>
+          </div>
+        </section>
+      );
+    }
+  }
+}
