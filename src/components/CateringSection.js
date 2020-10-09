@@ -25,7 +25,7 @@ const CateringSection = () => {
             <Img fluid={data.file.childImageSharp.fluid} />
           </div>
           <div className="mt-4 md:ml-10 lg:pl-24">
-            <p className="text-lg font-light md:text-base lg:text-xl pt-8 md:pt-0  md:text-left leading-relaxed">
+            <p className="text-lg font-light md:text-base lg:text-xl xl:text-2xl pt-8 md:pt-0  md:text-left leading-relaxed">
               We offer various catering options, from sandwich platters to boxed
               lunches. To discuss catering options and place an order,
               <br />
