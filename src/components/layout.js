@@ -1,17 +1,17 @@
-import React, { useState } from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
 
-import "./layout.css"
-import Footer from "./Footer"
-import Navbar from "./Navbar"
-import Sidebar from "./Sidebar"
+import "./layout.css";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 
 const Layout = ({ children }) => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   const toggleSidebar = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div className="">
@@ -20,11 +20,11 @@ const Layout = ({ children }) => {
       {children}
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;
