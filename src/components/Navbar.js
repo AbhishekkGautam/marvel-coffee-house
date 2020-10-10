@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import logo from "../images/logo.png"
-import { FaAlignRight, FaCartArrowDown } from "react-icons/fa"
+import React from "react";
+import { Link } from "gatsby";
+import logo from "../images/logo.png";
+import { FaAlignRight, FaCartArrowDown } from "react-icons/fa";
 
 const Navbar = ({ toggleSidebar }) => {
   const data = [
@@ -25,7 +25,7 @@ const Navbar = ({ toggleSidebar }) => {
       text: "contact",
       url: "/contact/",
     },
-  ]
+  ];
   return (
     <nav className="w-full absolute z-10 top-0 left-0 h-24 flex items-center bg-white">
       <div className="w-11/12 max-w-screen-lg my-0 mx-auto lg:grid lg:grid-cols-2 lg:items-center">
@@ -33,7 +33,7 @@ const Navbar = ({ toggleSidebar }) => {
           <Link to="/">
             <img src={logo} alt="logo" width="90px" height="90px" />
           </Link>
-          <div className="lg:hidden flex justify-end">
+          <div className="lg:hidden flex justify-end items-center">
             <Link to="#" className="text-gray-700" aria-label="Cart Icon">
               <FaCartArrowDown className="text-3xl mr-10" />
             </Link>
@@ -59,7 +59,7 @@ const Navbar = ({ toggleSidebar }) => {
                     {link.text}
                   </Link>
                 </li>
-              )
+              );
             })}
             <li>
               <Link to="#" className="text-gray-700" aria-label="Cart Icon">
@@ -70,7 +70,7 @@ const Navbar = ({ toggleSidebar }) => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
