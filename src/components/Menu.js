@@ -41,7 +41,7 @@ export default class Menu extends Component {
         <section className="mt-8 md:mt-10 mb-10">
           <div className="max-w-screen-lg mx-auto w-5/6 md:w-3/4">
             {/*Categories*/}
-            <div className="flex items-start justify-between flex-wrap mb-12 md:mb-16">
+            <div className="flex items-start justify-between md:justify-evenly flex-wrap mb-12 md:mb-16">
               {this.state.categories.map((category, index) => {
                 return (
                   <button
