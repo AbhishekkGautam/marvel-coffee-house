@@ -33,7 +33,7 @@ const Navbar = ({ toggleSidebar }) => {
           <Link to="/">
             <img src={logo} alt="logo" width="90px" height="90px" />
           </Link>
-          <div className="lg:hidden flex justify-end">
+          <div className="lg:hidden flex justify-end items-center my-auto">
             <Link to="#" className="text-gray-700" aria-label="Cart Icon">
               <FaCartArrowDown className="text-3xl mr-10" />
             </Link>
