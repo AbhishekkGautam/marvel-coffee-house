@@ -1,13 +1,14 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from "react";
+import { graphql } from "gatsby";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import HeroSection from "../components/HeroSection"
-import VisitUs from "../components/VisitUs"
-import CateringSection from "../components/CateringSection"
-import MusicSection from "../components/MusicSection"
-import Testimonials from "../components/Testimonials"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import HeroSection from "../components/HeroSection";
+import VisitUs from "../components/VisitUs";
+import CateringSection from "../components/CateringSection";
+import MusicSection from "../components/MusicSection";
+import Testimonials from "../components/Testimonials";
+import Products from "../components/Products";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -19,9 +20,10 @@ const IndexPage = ({ data }) => (
     <VisitUs />
     <CateringSection />
     <MusicSection />
+    <Products />
     <Testimonials />
   </Layout>
-)
+);
 
 export const query = graphql`
   {
@@ -33,6 +35,6 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
-export default IndexPage
+export default IndexPage;
