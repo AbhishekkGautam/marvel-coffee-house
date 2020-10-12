@@ -19,7 +19,14 @@ const Product = ({ product }) => {
         <div className="px-6 py-3 md:px-4 text-center">
           <h1 className="text-xl py-2">{product.title}</h1>
           <Link to="/about">
-            <button className="w-4/5 text-sm py-2 px-4 mt-3 mb-3 rounded-md bg-orange-300 hover:bg-black hover:text-white transition-all duration-500 ease-linear">
+            <button
+              className="snipcart-add-item w-4/5 text-sm py-2 px-4 mt-3 mb-3 rounded-md bg-orange-300 hover:bg-black hover:text-white transition-all duration-500 ease-linear"
+              data-item-id={product.id}
+              data-item-price={product.price}
+              data-item-url="https://marvelcoffee.netlify.app/"
+              data-item-image={product.image.fluid.src}
+              data-item-name={product.title}
+            >
               Add to Cart
             </button>
           </Link>
