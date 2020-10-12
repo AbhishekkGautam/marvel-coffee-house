@@ -25,7 +25,7 @@ const HeroSection = ({ img, heroclass }) => {
         </Link>
         <Link to="/about">
           <button
-            className="py-2 px-4 text-sm lg:py-3 lg:px-6 text-white border border-white hover:bg-black hover:border-transparent focus:outline-none transition-all duration-300 ease-linear"
+            className="py-3 px-5 text-sm lg:py-3 lg:px-6 text-white border border-white hover:bg-black hover:border-transparent focus:outline-none transition-all duration-300 ease-linear"
             aria-label="More About Us"
           >
             More About Us
