@@ -16,8 +16,13 @@ module.exports = {
         80: "20rem",
         96: "24rem",
       },
+      backgroundColor: {
+        coffee: "#8D5903",
+      },
     },
   },
-  variants: {},
+  variants: {
+    display: ["responsive", "hover", "focus"],
+  },
   plugins: [],
-}
+};
