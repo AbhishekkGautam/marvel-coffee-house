@@ -35,7 +35,7 @@ const Navbar = ({ toggleSidebar }) => {
           </Link>
           <div className="lg:hidden flex justify-end items-center my-auto">
             <Link to="#" className="text-gray-700" aria-label="Cart Icon">
-              <FaCartArrowDown className="text-3xl mr-10" />
+              <FaCartArrowDown className="text-3xl mr-10 snipcart-checkout" />
             </Link>
             <button
               onClick={toggleSidebar}
@@ -63,7 +63,7 @@ const Navbar = ({ toggleSidebar }) => {
             })}
             <li>
               <Link to="#" className="text-gray-700" aria-label="Cart Icon">
-                <FaCartArrowDown className="text-2xl" />
+                <FaCartArrowDown className="text-2xl snipcart-checkout" />
               </Link>
             </li>
           </ul>
