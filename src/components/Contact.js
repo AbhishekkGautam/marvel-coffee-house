@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section className="py-12 md:py-16">
       <div className="max-w-screen-xl mx-auto w-3/4 md:w-3/5 lg:w-1/2">
-        <form action="">
+        <form action="https://formspree.io/f/xvovkpwy" method="POST">
           <div className="flex flex-col mb-8">
             <label
               htmlFor="name"
