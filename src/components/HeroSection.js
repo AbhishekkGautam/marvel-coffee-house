@@ -4,13 +4,12 @@ import { Link } from "gatsby";
 const HeroSection = ({ img, heroclass }) => {
   return (
     <BackgroundImage className={heroclass} fluid={img} fadeIn="soft">
-      <h1 className="text-white font-poppins md:text-center lg:text-5xl text-4xl px-10 mb-6 mt-20 lg:mb-8 lg:mt-12 tracking-wide leading-tight">
+      <h1 className="text-white font-poppins text-center lg:text-5xl text-4xl px-4 md:px-10 mb-6 mt-20 lg:mb-8 lg:mt-12 tracking-wide leading-tight">
         Organic Coffee & Teas,
-        <br />
-        100% Carytown Coffee Beans
+        <br className="hidden md:inline-block" /> 100% Carytown Coffee Beans
       </h1>
       <div className="mb-16">
-        <h1 className="text-white md:text-center font-thin lg:text-xl text-lg px-10 md:px-20 tracking-wide">
+        <h1 className="text-white text-center font-light lg:text-xl text-lg px-6 md:px-20 tracking-wider">
           Connecting with People through Coffee, Food, and Live Music.
         </h1>
       </div>
