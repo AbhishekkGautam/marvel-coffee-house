@@ -34,13 +34,9 @@ const Navbar = ({ toggleSidebar }) => {
             <img src={logo} alt="logo" width="90px" height="90px" />
           </Link>
           <div className="lg:hidden flex justify-end items-center my-auto">
-            <Link
-              to="/checkout"
-              className="text-gray-700"
-              aria-label="Cart Icon"
-            >
+            <div className="text-gray-700">
               <FaCartArrowDown className="text-3xl mr-10 snipcart-checkout" />
-            </Link>
+            </div>
             <button
               onClick={toggleSidebar}
               className="lg:hidden focus:outline-none text-3xl mr-1 bg-transparent border-transparent text-gray-700 cursor-pointer"
