@@ -62,9 +62,9 @@ const Navbar = ({ toggleSidebar }) => {
               );
             })}
             <li>
-              <Link to="#" className="text-gray-700" aria-label="Cart Icon">
+              <div className="text-gray-700">
                 <FaCartArrowDown className="text-2xl snipcart-checkout" />
-              </Link>
+              </div>
             </li>
           </ul>
         </div>
