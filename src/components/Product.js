@@ -23,7 +23,7 @@ const Product = ({ product }) => {
               className="snipcart-add-item w-4/5 text-sm py-2 px-4 mt-3 mb-3 rounded-md bg-orange-300 hover:bg-black hover:text-white transition-all duration-500 ease-linear"
               data-item-id={product.id}
               data-item-price={product.price}
-              data-item-url="/"
+              data-item-url="www.marvelcoffee.netlify.app/checkout"
               data-item-image={product.image.fluid.src}
               data-item-name={product.title}
             >
