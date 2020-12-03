@@ -5,7 +5,7 @@ const About = () => {
     <section className="mt-12 md:mt-16 mb-24">
       <div className="max-w-screen-lg mx-auto w-5/6 md:w-3/4">
         <p className="text-lg lg:text-2xl tracking-wide font-poppins">
-          Uptown Coffee Cafe in Victoria, Virginia opened in December of 2007.
+          Marvel Coffee Cafe in Victoria, Virginia opened in December of 2007.
           We have thrived in our location in Farmville, Virginia since 2014. ​
         </p>
         <p className="text-lg lg:text-2xl tracking-wide font-poppins pt-5">
