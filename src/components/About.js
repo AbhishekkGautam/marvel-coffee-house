@@ -9,8 +9,8 @@ const About = () => {
           We have thrived in our location in Farmville, Virginia since 2014. ​
         </p>
         <p className="text-lg lg:text-2xl tracking-wide font-poppins pt-5">
-          We are a family- owned business with a lot of passion for what we do!
-          At Uptown Coffee Cafe, we bring our community together through coffee,
+          We are a family - owned business with a lot of passion for what we do!
+          At Marvel Coffee Cafe, we bring our community together through coffee,
           food, and live music.
         </p>
         <p className="text-lg lg:text-2xl tracking-wide font-poppins pt-5 pb-6">
